@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./all-css/login-page.css";
 import besteweb from "./assets/besteweb.png";
 
 function App() {
+  const [email, setEmail] = useState("");
+  const [password, setPasswprd] = useState("");
+
   return (
     <div className="container">
       <div className="container-login">
@@ -15,12 +18,25 @@ function App() {
             </span>
 
             <div className="wpar-input">
-              <input className="input-login" type="email" />
+              <input
+                className={email !== "" ? "has-val input-login" : "input-login"}
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
               <span className="focus-input" data-placeholder="Email"></span>
             </div>
 
             <div className="wpar-input">
-              <input className="input-login" type="password" />
+              <input
+                className={
+                  password !== "" ? "has-val input-login" : "input-login"
+                }
+                type="password"
+                value={password}
+                onChange={(e) => setPasswprd(e.target.value)}
+              />
+
               <span className="focus-input" data-placeholder="Password"></span>
             </div>
 
@@ -29,10 +45,10 @@ function App() {
             </div>
 
             <div className="criar-login">
-              <span className="criar-login-pt1"></span>
+              <span className="criar-login-pt1">Não possui conta? </span>
 
               <a className="criar-login-pt2" href="#">
-                criar conta
+                Criar conta
               </a>
             </div>
           </form>
