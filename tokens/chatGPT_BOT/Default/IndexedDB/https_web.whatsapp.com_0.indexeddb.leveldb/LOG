@@ -1,0 +1,16 @@
+2024/04/09-11:35:14.430 3e44 Reusing MANIFEST D:\Users\Elton\Desktop\teste\WhatsApp_IA\tokens\chatGPT_BOT\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/09-11:35:14.432 3e44 Recovering log #764
+2024/04/09-11:35:14.672 3e44 Reusing old log D:\Users\Elton\Desktop\teste\WhatsApp_IA\tokens\chatGPT_BOT\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000764.log 
+2024/04/09-11:35:14.673 3e44 Delete type=2 #763
+2024/04/09-11:35:23.680 45b8 Level-0 table #770: started
+2024/04/09-11:35:23.760 45b8 Level-0 table #770: 508485 bytes OK
+2024/04/09-11:35:23.783 45b8 Delete type=0 #764
+2024/04/09-11:35:23.787 5684 Manual compaction at level-0 from '\x00<\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00=\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/04/09-11:35:23.788 5684 Manual compaction at level-1 from '\x00<\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00=\x00\x00\x00' @ 0 : 0; will stop at '\x00<\x00\x00\x05' @ 1866303 : 1
+2024/04/09-11:35:23.788 5684 Compacting 1@1 + 1@2 files
+2024/04/09-11:35:24.392 5684 Generated table #771@1: 61603 keys, 2223161 bytes
+2024/04/09-11:35:24.527 5684 Generated table #772@1: 6623 keys, 169253 bytes
+2024/04/09-11:35:24.527 5684 Compacted 1@1 + 1@2 files => 2392414 bytes
+2024/04/09-11:35:24.591 5684 compacted to: files[ 0 0 4 0 0 0 0 ]
+2024/04/09-11:35:24.608 5684 Delete type=2 #770
+2024/04/09-11:35:24.608 5684 Manual compaction at level-1 from '\x00<\x00\x00\x05' @ 1866303 : 1 .. '\x00=\x00\x00\x00' @ 0 : 0; will stop at (end)
